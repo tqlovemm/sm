@@ -1,0 +1,97 @@
+<!--{template common/header}-->
+<!--[name]{moke8_edu_product}[/name]-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+
+<!--{ad/text/wp a_t}-->
+<style id="diy_style" type="text/css"></style>
+<style>
+.ct2 { border:0; background:none; padding-bottom:30px;} 
+.wk_c_right_name { height:30px;}
+.wk_c_right_name_l, .wk_c_right_name_r { padding-top:0;}
+</style>
+
+</div>
+<div class="wk_content_left">
+    <div class="wk_content_left1">
+        <div class="wk_content_bottom">
+            <div class="wp">
+                <div class="wk_content_left_t">
+                    <span class="wk_content_left_t1">$week_lang[120]</span>
+                    <span class="wk_content_left_t2">$week_lang[121]</span>
+                </div>
+                <div class="wk_content_right_t">
+                    <!--{if ($_G['group']['allowpostarticle'] || $_G['group']['allowmanagearticle'] || $categoryperm[$catid]['allowmanage'] || $categoryperm[$catid]['allowpublish']) && empty($cat['disallowpublish'])}-->
+                    <a href="portal.php?mod=portalcp&ac=article&catid=$cat[catid]" class="wk_content_right_t1">{lang article_publish}</a>
+                    <!--{/if}-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wk_ymbg">
+<div id="wp" class="wp">
+
+<script type="text/javascript" src="$_G['style'][styleimgdir]/js/jquery.hover.js"></script>
+<script type="text/javascript">
+	PRO(document).ready(function(){PRO(function() {PRO('#photo .list').hoverdir();});});
+</script>
+
+<div class="wp">
+	<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="ct" class="ct2 wp cl">
+		<div class="wk_c_right_name">
+            <div class="wk_c_right_name_l">
+                <span class="wk_c_right_name_l2">$cat[catname]</span>
+            </div>
+            <div class="wk_c_right_name_r">
+                <ul>
+                    <li>
+                        <span>$week_lang[8]</span>
+                        <span><a href="$_G[setting][navs][1][filename]">{lang portal}</a></span>
+                        <span>$week_lang[17]</span>
+                        <!--{loop $cat[ups] $value}--><span><a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a></span><span>$week_lang[17]</span><!--{/loop}-->
+                        <span>$cat[catname]</span>
+                    </li>
+                    <li>
+                        <img src="$_G['style']['styleimgdir']/portal/right_wz.png" alt="" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+		<!--{ad/articlelist/mbm hm/1}--><!--{ad/articlelist/mbm hm/2}-->
+		<!--[diy=listcontenttop]--><div id="listcontenttop" class="area"></div><!--[/diy]-->
+        <div class="wk_product" id="photo">
+            <ul>
+            <!--{eval $wt=1}-->
+            <!--{loop $list['list'] $value}-->
+            <!--{eval $highlight = article_title_style($value);}-->
+            <!--{eval $article_url = fetch_article_url($value);}-->	
+                <li class="list" {if is_int($wt/4)}style="margin-right:0;"{/if}>
+                    <a href="$article_url" title="$value[title]" target="_blank">
+                        <!--{if $value[pic]}--><img src="$value[pic]" alt="$value[title]"/><!--{else}--><img src="$_G['style']['imgdir']/nophoto.gif" alt="$value[title]"/><!--{/if}-->
+                        <dd class="pt_amt" style="display: block;"><h2>$value[title]</h2>
+                            <div class="wk_mt"><span>$week_lang[11]:$value[dateline]</span></div>
+                        </dd>
+                    </a>
+                    <p class="wk_psz"><a href="{$portalcategory[$value['catid']]['caturl']}" class="xi2">$value[catname]</a></p>
+                </li>
+                <!--{eval $wt++}-->	
+            <!--{/loop}-->
+            </ul>
+        </div>
+        <div class="clear"></div>
+		<!--{ad/articlelist/mbm hm/3}--><!--{ad/articlelist/mbm hm/4}-->
+		<!--{if $list['multi']}--><div class="pgs cl">{$list['multi']}</div><!--{/if}-->
+		<!--[diy=diycontentbottom]--><div id="diycontentbottom" class="area"></div><!--[/diy]-->
+</div>
+</div>
+
+<div class="wp mtn">
+	<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+
+<!--{template common/footer}-->

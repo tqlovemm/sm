@@ -1,0 +1,14 @@
+@charset "gb2312"; 
+/* ----------------------------------
+Discuz! X3.0 X3.1 X3.2 (C) ÷‹ƒ©…Ëº∆
+http://www.haoweek.com
+----------------------------------*/
+
+#scrolltop {display:none;}
+
+.service_side{position:fixed;width:54px;height:275px;right:0;top:214px;z-index:100;}
+.service_side ul li{width:54px;height:54px;float:left;position:relative;border-bottom:1px solid #444;}
+.service_side ul li .service_sidebox{position:absolute;width:54px;height:54px;top:0;right:0;transition:all 0.3s;background:#000;opacity:0.8;filter:Alpha(opacity=80);color:#fff;font:14px/54px "Œ¢»Ì—≈∫⁄";overflow:hidden;}
+.service_side ul li .service_sidetop{width:54px;height:54px;line-height:54px;display:inline-block;background:#000;opacity:0.8;filter:Alpha(opacity=80);transition:all 0.3s;}
+.service_side ul li .service_sidetop:hover{background:#DA0006;opacity:1;filter:Alpha(opacity=100);}
+.service_side ul li img{float:left;}

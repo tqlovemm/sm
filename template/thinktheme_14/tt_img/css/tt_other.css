@@ -1,0 +1,108 @@
+/*forumdisplay css add by xiaoguimumu*/
+.tt_shoucang {position:absolute; right:20px; top:40px; color:#FF6600;}
+.tt_shoucang img {position:relative; top:1px; margin-right:3px;}
+.tt_shop_info .tt_shoucang img {top:2px;}
+.tt_shoucang img.tt_shoucang_2 {display:none;} 
+.tt_yishoucang img.tt_shoucang_1 {display:none;}
+.tt_yishoucang img.tt_shoucang_2 {display:inline;}
+.tt_yishoucang, .tt_yishoucang:hover {color:#999; text-decoration:none;}
+.tt_mianbaoxie {width:auto; height:auto; font-size:14px; margin-bottom:18px;margin-top:18px;}
+.tt_list_info {width:auto; height:auto; background-color:#fff; margin-bottom:20px; position:relative;}
+.tt_list_info_icon {width:100px; height:100px; margin-right:15px;}
+.tt_list_info_icon img {width:100%;}
+.tt_list_info_des {padding-top:16px;}
+.tt_list_info_des dt {margin-bottom:10px; font-size:18px; font-weight:700;}
+.tt_list_info_des dd {margin-bottom:4px;}
+.tt_in_content_list {width:auto; height:auto; padding:14px 20px; background-color:#fff;}
+
+.tt_jiaodian_h, .tt_bankuai_tab_t, .tt_list_tab_t {width:auto; height:auto; border-bottom:#EAEAEA 2px solid; font-weight:normal; margin-bottom:13px;}
+.tt_jiaodian_h a, .tt_bankuai_tab_t li a, .tt_bankuai_tab_t li.tt_hover a, .tt_list_tab_t a, .tt_list_tab_t a.tt_hover {font-size:18px; color:#FF6600; display:inline-block; border-bottom:#FF6600 2px solid; position:relative; top:2px; line-height:150%; padding-bottom:5px; padding-bottom:3px \9;}
+.tt_bankuai_tab_t li {float:left; font-size:18px;}
+.tt_bankuai_tab_t li .pipe, .tt_list_tab_t .pipe {margin:0 20px; position:relative; top:1px; *top:-3px;}
+.tt_bankuai_tab_t li a, .tt_list_tab_t a {border-bottom-color:#EAEAEA; color:#333;}
+.tt_list_tab_t {line-height:150%; font-size:14px; margin-bottom:0;}
+.tt_list_tab_t .pipe {margin:0 10px;}
+.tt_list_tab_t a, .tt_list_tab_t a.tt_hover {font-size:14px;}
+
+/*forumdisplay_list css add by xiaoguimumu*/
+.tt_tiezi_box_bottom {padding:20px 0;}
+.tt_fatie_btn_box {width:auto; height:auto; border:none}
+.tt_fatie_btn_box a,.tt_fatie_btn { border:none;margin-right:10px; display:block; float:left; width:100px; height:36px; text-align:center; line-height:36px; background-color:#FF6600; color:#fff; font-size:14px; font-weight:bold;}
+.tt_fatie_btn_box a:hover, .tt_fatie_btn:hover {background-color:#FF3300; color:#fff; cursor:pointer;}
+.tt_tiezi_list {width:auto; height:auto; border-top:0; border-bottom:0;}
+.tt_tiezi_list table {width:100%; border-bottom:#EAEAEA 1px solid;}
+.tt_tiezi_list th, .tt_tiezi_list td {padding:11px 0; border-top:#EAEAEA 1px solid; border-bottom:0;}
+.tt_tiezi_list tr:hover th, .tt_tiezi_list tr:hover td {background-color:#F5F5F5;}
+.tt_tiezi_list_t {width:auto; height:36px; line-height:36px; font-weight:normal; font-size:14px; background-color:#F5F5F5; padding:0 14px;}
+.tt_tiezi_list tr.tt_tiezi_list_t:hover th, .tt_tiezi_list tr.tt_tiezi_list_t:hover td {background-color:#F5F5F5;}
+.tt_tiezi_list .tt_tiezi_list_t th, .tt_tiezi_list .tt_tiezi_list_t td {padding:0;}
+.tt_tiezi_list .num, .tt_tiezi_list_th .num {text-align:center; padding-right:5px;}
+.tt_tiezi_list_th .by {padding-left:10px; width:130px;}
+.tt_tiezi_list .by img {width:28px; float:left; margin-right:5px;}
+.tt_th {border-top:1px #DDD solid; background-color:#F5F5F5;}
+.tt_th th {height:34px; vertical-align:middle;}
+.tt_td table {width:100%;}
+.tt_td th, .tt_td td {border-top:1px #DDD solid; padding:10px 0 10px 10px;}
+.tt_td table .common {font-size:14px; padding-left:8px; padding-right:25px;}
+.tt_tiezi_list_th {width:auto; border-top:1px #ddd solid;}
+.tt_tiezi_list_th th, .tt_tiezi_list_th td {vertical-align:middle; padding:0; height:42px; border-bottom:0;}
+.tt_tiezi_list_th th {padding-left:10px;}
+.tt_tiezi_list_th tr:hover th, .tt_tiezi_list_th tr:hover td {background-color:#FFF;}
+.tt_f_pst {width:auto; height:auto; border:#ddd 1px solid; background-color:#fff;}
+.tt_f_pst .px {border:#ddd 1px solid; height:24px; line-height:24px; background:#fff; padding:0;}
+.tt_f_pst .tedt {border:#ddd 1px solid;}
+.tt_f_pst .tedt .bar {border-color:#ddd;}
+
+/*viewthread css add by xiaoguimumu*/
+.tt_tiezixiangqing_box {width:auto; height:auto; background-color:#fff;}
+.tt_postlist_pager {padding:20px;}
+.tt_tiezi_guanli{ padding:10px; text-align:center}
+.pls {background-color:#fff; border-right-color:#EAEAEA;}
+.po {border-top-color:#EAEAEA;}
+.tt_postlist{width:auto;height:auto;border-top:2px solid #EAEAEA;}
+.tt_postlist table{width:100%}
+.tt_postlist_top{width:960px;height:auto;border-bottom:2px solid #EAEAEA;}
+.tt_postlist_top td{height:40px;vertical-align:middle}
+.tt_postlist_left{width:180px;border-right:#EAEAEA 1px solid}
+.tt_postlist_right{padding:0 29px}
+.tt_postlist_btn{border-top:#ddd 2px solid;width:126px;padding-top:5px}
+.tt_postlist_box{border-bottom:2px solid #EAEAEA}
+.tt_postlist_c_right_top{font-size:12px;_height:30px;_padding-top:11px;padding-left:30px;padding-right:10px;color:#777;border-bottom:#EAEAEA 1px solid}
+.tt_postlist_c_right_top a{color:#777}
+.tt_postlist_c_right_top a:hover{color:#1b8ad6}
+.tt_postlist_c_right_center{padding-top:25px}
+.tt_postlist_pager {padding:20px;}
+
+/*viewthread_node css add by xiaoguimumu*/
+.tt_tiezi_caozuo {width:auto; height:auto; text-align:center; margin-bottom:39px;}
+.tt_tiezi_caozuo a {display:inline-block; *display:inline; *zoom:1; width:85px; height:22px; color:#fff; padding-top:49px; background:url(../tiezi_caozuo.png) no-repeat; margin:0 3px;}
+.tt_tiezi_caozuo a:hover {color:#fff;}
+.tt_tiezi_more {}
+.tt_tiezi_more dl {width:330px;}
+.tt_tiezi_more dt {height:24px; line-height:24px; color:#f26c4f; background:url(../tiezi_t.png) no-repeat left top; padding-left:11px;}
+.tt_tiezi_more dd {padding-left:3px; padding-top:10px;}
+.tt_tiezi_more dd li {list-style:inside disc; width:326px; overflow:hidden;white-space:nowrap; word-wrap:normal;text-overflow:ellipsis; color:#A7A7A7; margin-bottom:3px; line-height:150%;}
+.tt_like_box {width:auto; height:75px; position:relative; overflow:hidden; margin:0 auto; padding:9px 0 9px 216px; border-top:#EAEAEA 2px solid;}
+.tt_like_box dt {position:absolute; left:-5px; top:0;}
+.tt_like_box dd{width:321px;height:26px;line-height:26px;line-height:28px \0;padding-left:16px;overflow:hidden;white-space:nowrap; word-wrap:normal;text-overflow:ellipsis;background:url(../hot_box_icon.png) no-repeat left center;float:left;margin-right:20px}
+.tt_tiezi_for_list{border-top:#eb0000 2px solid;margin-top:28px}
+.tt_no_border_bottom{border-bottom:0}
+.pls .pi{padding:0}
+.pls .pi .authi{text-align:center;padding-left:0;font-size:14px;font-weight:bold}
+.plc .thread_share{display:block;overflow:hidden;padding-top:15px;margin-bottom:24px}
+
+/*viewthread_node_body css add by xiaoguimumu*/
+a.tt_huifu {position:absolute; right:0; top:0px; *top:-1px; color:#000;}
+
+/*viewthread_fastpost css add by xiaoguimumu*/
+.tt_f_pst_title{width:auto;height:47px;line-height:47px;font-size:18px;padding-left:15px; border-top:#EAEAEA solid 20px; border-bottom:#EAEAEA solid 1px;}
+.tt_red_btn{width:auto;height:30px;padding:0 15px;color:#fff; cursor:pointer; background-color:#FF6600; border:0;}
+.tt_f_pst_label{*position:relative;*top:-7px}
+
+/*post css add by xiaoguimumu*/
+.tt_big_fatie_btn{margin-right:10px;display:block;float:left;width:85px;height:34px;border:#CCC 1px solid;text-align:center;line-height:34px;background:url(../big_btn_bg.png) repeat-x left top;color:#333;font-size:14px;font-weight:bold; cursor:pointer;}
+.tt_right_side_box{width:auto;height:auto;margin-bottom:30px}
+.tt_right_side_box_t{width:auto;height:25px;overflow:hidden;font-size:14px;background:url(tt_right_side_box_t.png) no-repeat right bottom;color:#eb0000;position:relative;top:-5px}
+.tt_right_side_box_t a{float:right;font-size:12px;position:relative;top:3px;color:#777}
+.tt_right_side_box_t font{float:right;display:inline;font-size:12px;font-weight:100;color:#333;position:relative;top:3px}
+.tt_right_side_box_t font a{float:none;top:0}

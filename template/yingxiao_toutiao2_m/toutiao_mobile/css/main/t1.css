@@ -1,0 +1,16 @@
+/*红色（默认）*/
+@charset "utf-8";
+header { background: #d73333; }
+.l, .catlist a.a span, .thtypes a.a, .pg strong { background-color: #d73333 !important;}
+.btn_login .pn, .btn_register .pn, .btn_pn_grey,.btn_pn_blue, .button, .button2, a.f_pst { border: 1px solid #d73333; background: #d73333; color:#fff; }
+.fsearch li.a { background:#549FD8; }
+.on {background:#d73333; border-color:#d73333;}
+.xi2,.xi2 a,.xi3 a {color:#d73333 !important;}
+.mmt a:visited.a {color:#fff;background:#d73333;}
+.usli a i {	color:#d73333;}
+.userinfo i {  color:#d73333; }
+.user_box li:before{  color:#d73333; }
+.btn_exit a {background:#d73333;color:#fff;}
+.btn_exit a:hover {	background:#d73333;	color:#fff;}
+.footmember i {color:#d73333;}
+

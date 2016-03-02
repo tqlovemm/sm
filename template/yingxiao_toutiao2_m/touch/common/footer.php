@@ -21,10 +21,10 @@
 		<a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1">{$_G['member']['username']}</a> , <a href="member.php?mod=logging&action=logout&formhash={FORMHASH}" title="{lang logout}" class="dialog">{lang logout}</a>
 		<!--{/if}-->
 	</div>
-    <div>
-		<a href="{$_G['setting']['mobile']['simpletypeurl'][0]}">{lang no_simplemobiletype}</a> |  
-		<a href="javascript:;" style="color:#D7D7D7;">{lang mobile2version}</a> | 
-		<a href="{$_G['setting']['mobile']['nomobileurl']}">{lang nomobiletype}</a> | 
+    <div style="display: none;">
+		<a href="{$_G['setting']['mobile']['simpletypeurl'][0]}">{lang no_simplemobiletype}</a> |
+		<a href="javascript:;" style="color:#D7D7D7;">{lang mobile2version}</a> |
+		<a href="{$_G['setting']['mobile']['nomobileurl']}">{lang nomobiletype}</a> |
 		<!--{if $clienturl}--><a href="$clienturl">{lang clientversion}</a><!--{/if}-->
     </div>
 	<p>&copy; 西蒙之家.</p>

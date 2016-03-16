@@ -55,7 +55,7 @@
 
 	<!--{hook/global_footer}-->
 	<div class="deanfooter">
-    	<div class="deanfttop deanw1180">
+<!--    	<div class="deanfttop deanw1180">
         	<div class="deanftdiv">
             	<h3>网站服务电话</h3>
                 <div class="clear"></div>
@@ -98,13 +98,13 @@
             </div>
             <div class="clear"></div>
         </div>
-        <div class="clear"></div>
-        <div class="deanftbottom deanw1180">
+        <div class="clear"></div>-->
+        <div class="deanftbottom deanw1180" style="padding:0;">
         	<div class="deanftbottoml">
             	<div class="deanftnav"><!--{loop $_G['setting']['footernavs'] $nav}--><!--{if $nav['available'] && ($nav['type'] && (!$nav['level'] || ($nav['level'] == 1 && $_G['uid']) || ($nav['level'] == 2 && $_G['adminid'] > 0) || ($nav['level'] == 3 && $_G['adminid'] == 1)) ||
 						!$nav['type'] && ($nav['id'] == 'stat' && $_G['group']['allowstatdata'] || $nav['id'] == 'report' && $_G['uid'] || $nav['id'] == 'archiver' || $nav['id'] == 'mobile' || $nav['id'] == 'darkroom'))}-->$nav[code]<em>|</em><!--{/if}--><!--{/loop}--><div class="clear"></div></div>
                 <div class="clear"></div>
-                <p>Copyright;&nbsp;&nbsp;&copy;2015-2016&nbsp;&nbsp;<a href="$_G['setting']['siteurl']" target="_blank">$_G['setting']['sitename']</a>&nbsp;&nbsp;Powered by<a href="http://www.discuz.net" target="_blank">Discuz!</a>&nbsp;&nbsp;技术支持：<a href="#" target="_blank">迪恩网络</a>&nbsp;&nbsp;<!--{if $_G['setting']['statcode']}-->$_G['setting']['statcode']<!--{/if}-->&nbsp;&nbsp;<!--{if $_G['setting']['icp']}-->( <a href="http://www.miitbeian.gov.cn/" target="_blank">$_G['setting']['icp']</a> )<!--{/if}--></p>
+                <p>Copyright;&nbsp;&nbsp;&copy;2015-2016&nbsp;&nbsp;<a href="$_G['setting']['siteurl']" target="_blank">$_G['setting']['sitename']</a>&nbsp;&nbsp;<!--{if $_G['setting']['statcode']}-->$_G['setting']['statcode']<!--{/if}-->&nbsp;&nbsp;<!--{if $_G['setting']['icp']}-->( <a href="http://www.miitbeian.gov.cn/" target="_blank">$_G['setting']['icp']</a> )<!--{/if}--></p>
             </div>
             <div class="deanftbottomc">
             	<div class="deanwximg"><img src="./template/dean_lama_160310/deancss/qrcode_1.png" width="100" /></div>
@@ -126,8 +126,8 @@
             <div class="clear"></div>
         </div>
     </div>
-    
-    
+
+
     
 	
 

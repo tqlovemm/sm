@@ -28,7 +28,7 @@
 	<link rel="stylesheet" type="text/css" id="diy_common" href="data/cache/style_{STYLEID}_css_diy.css?{VERHASH}" />
 	<!--{/if}-->
 
-    <script type="text/javascript" src="$_G['style'][styleimgdir]/js/jquery-1.8.3.min.js"></script> 
+    <script type="text/javascript" src="$_G['style'][styleimgdir]/js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript">
         var jq=jQuery.noConflict();
     </script>
@@ -38,6 +38,22 @@
         }
         window.onerror = killErrors;
     </script>
+<style>
+
+	.deanheader{background-color: black;}
+	#ct{min-height: 700px;}
+	.wp{width: 960px !important;}
+	.deannavwrap{background-color: #930C12 !important;}
+	.deannavwrap .deanw1180{width: 960px !important;}
+	.deannav{width: 660px !important;}
+	.deannav ul{width: 100% !important;}
+	#scbar_btn{background-color: gray !important;}
+	#scbar{border:none !important;}
+	.deannav ul li.a a, .deannav ul li a:hover{border-top: 2px solid white;background-color: transparent;}
+	.ct2_a .mn{width:800px !important;}
+	.deannav ul{width: 100% !important;}
+
+</style>
 </head>
 
 <body id="nv_{$_G[basescript]}" class="pg_{CURMODULE}{if $_G['basescript'] === 'portal' && CURMODULE === 'list' && !empty($cat)} {$cat['bodycss']}{/if}" onkeydown="if(event.keyCode==27) return false;">
@@ -67,7 +83,7 @@
 			</div>
 			<script type="text/javascript">setTimeout(setShortcut, 2000);</script>
 		<!--{/if}-->
-        
+
         <div id="toptb" class="cl" style="display:none;">
 			<!--{hook/global_cpnav_top}-->
 			<div class="wp" style="width:1180px!important; margin:0 auto;">
@@ -84,7 +100,7 @@
 						<!--{if $nav['available'] && (!$nav['level'] || ($nav['level'] == 1 && $_G['uid']) || ($nav['level'] == 2 && $_G['adminid'] > 0) || ($nav['level'] == 3 && $_G['adminid'] == 1))}-->$nav[code]<!--{/if}-->
 					<!--{/loop}-->
 					<!--{if empty($_G['disabledwidthauto']) && $_G['setting']['switchwidthauto']}-->
-						
+
 					<!--{/if}-->
 					<!--{if $_G['uid'] && !empty($_G['style']['extstyle'])}--><a id="sslct" href="javascript:;" onMouseOver="delayShow(this, function() {showMenu({'ctrlid':'sslct','pos':'34!'})});">{lang changestyle}</a><!--{/if}-->
 					<!--{if check_diy_perm($topic)}-->
@@ -93,8 +109,8 @@
 				</div>
 			</div>
 		</div>
-        
-		
+
+
 
 		<!--{if !IS_ROBOT}-->
 			<!--{if $_G['uid']}-->
@@ -130,11 +146,11 @@
 		<!--{ad/headerbanner/wp a_h}-->
         <div class="deanheader" >
             <div class="deanw1180">
-                <div class="deanlogo deanduang "><!--{if !isset($_G['setting']['navlogos'][$mnid])}--><a href="{if $_G['setting']['domain']['app']['default']}http://{$_G['setting']['domain']['app']['default']}/{else}./{/if}" title="$_G['setting']['bbname']">{$_G['style']['boardlogo']}</a><!--{else}-->$_G['setting']['navlogos'][$mnid]<!--{/if}--></div>
-            	
+                <div class="deanlogo deanduang "><!--{if !isset($_G['setting']['navlogos'][$mnid])}--><a href="{if $_G['setting']['domain']['app']['default']}http://{$_G['setting']['domain']['app']['default']}/{else}./{/if}" title="$_G['setting']['bbname']"><img src="./template/dean_lama_160310/deancss/logo.gif"><span style="display: none;">{$_G['style']['boardlogo']}</span></a><!--{else}-->$_G['setting']['navlogos'][$mnid]<!--{/if}--></div>
+
                 <div class="deansearch"><!--{subtemplate common/pubsearchform}--></div>
                	<div class="deanheadr">
-                	<a href="#" target="_blank"><img src="./template/dean_lama_160310/deancss/headad.jpg" /></a>
+                	<!--<a href="#" target="_blank"><img src="./template/dean_lama_160310/deancss/headad.jpg" /></a>-->
                     <div class="deanheadwx"></div>
                 </div>
                 <div class="clear"></div>

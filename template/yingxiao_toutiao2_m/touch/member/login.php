@@ -4,7 +4,7 @@
 {eval $loginhash = 'L'.random(4);}
 <div class="bm_c">
 <!-- userinfo start -->
-<div class="logo_in"><a href="javascript:;" onclick="history.go(-1)"><img src="template/yingxiao_toutiao2_m/toutiao_mobile/img/login_logo.png"/></a></div>
+<div class="logo_in"><a href="javascript:;" onclick="history.go(-1)"><img src="template/yingxiao_toutiao2_m/toutiao_mobile/img/touch-logo.png"/></a></div>
 <div class="loginbox yy <!--{if $_GET[infloat]}-->login_pop<!--{/if}-->">
 	<!--{if $_GET[infloat]}-->
 		<h2 class="log_tit"><a href="javascript:;" onclick="popup.close();"><span class="icon_close y">&nbsp;</span></a>{lang login}</h2>

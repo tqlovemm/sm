@@ -6,7 +6,7 @@ $_config = array();
 // ----------------------------  CONFIG DB  ----------------------------- //
 $_config['db']['1']['dbhost'] = 'localhost';
 $_config['db']['1']['dbuser'] = 'root';
-$_config['db']['1']['dbpw'] = '@shisan2015@';
+$_config['db']['1']['dbpw'] = 'qzwx@ecrv';
 $_config['db']['1']['dbcharset'] = 'utf8';
 $_config['db']['1']['pconnect'] = '0';
 $_config['db']['1']['dbname'] = 'ximeng';

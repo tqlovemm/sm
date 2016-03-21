@@ -27,7 +27,7 @@
 		<a href="{$_G['setting']['mobile']['nomobileurl']}">{lang nomobiletype}</a> | 
 		<!--{if $clienturl}--><a href="$clienturl">{lang clientversion}</a><!--{/if}-->
     </div>
-	<p>&copy; Comsenz Inc.</p>
+	<p>&copy; SMON HOME.</p>
     <div class="mfb"></div>
 </div>
 <!--{/if}-->

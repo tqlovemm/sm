@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="template/yingxiao_toutiao2_m/toutiao_mobile/css/colortest.css" type="text/css" media="all">
 <div class="bm_c">
 <!-- registerbox start -->
-<div class="logo_in"><a href="javascript:;" onclick="history.go(-1)"><img src="template/yingxiao_toutiao2_m/toutiao_mobile/img/login_logo.png"/></a></div>
+<div class="logo_in"><a href="javascript:;" onclick="history.go(-1)"><img src="template/yingxiao_toutiao2_m/toutiao_mobile/img/touch-logo.png"/></a></div>
 <div class="loginbox registerbox">
 	<div class="login_from">
 		<form method="post" autocomplete="off" name="register" id="registerform" action="member.php?mod={$_G[setting][regname]}&mobile=2">

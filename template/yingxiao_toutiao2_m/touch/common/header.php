@@ -38,7 +38,7 @@
 <!--{if $_G[member][newpm] || $_G[member][newprompt] || $_G['connectguest'] }--><em></em><!--{/if}-->
 </div>
 <div class="logo">
-<a href="./forum.php"><img src="template/yingxiao_toutiao2_m/toutiao_mobile/img/logo.png" /></a>
+<a href="./forum.php"><img src="template/yingxiao_toutiao2_m/toutiao_mobile/img/touch-logo.png" /></a>
 </div>
 <div id="side_pr" class="hd_mu">
 <a href="javascript:;" id="side_open" class="y"><i class="iconfont i_sidemenu">&#xe810;</i></a>

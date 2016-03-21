@@ -6,7 +6,7 @@ $_config = array();
 // ----------------------------  CONFIG DB  ----------------------------- //
 $_config['db']['1']['dbhost'] = 'localhost';
 $_config['db']['1']['dbuser'] = 'root';
-$_config['db']['1']['dbpw'] = 'qzwx@ecrv';
+$_config['db']['1']['dbpw'] = '@shisan2015@';
 $_config['db']['1']['dbcharset'] = 'utf8';
 $_config['db']['1']['pconnect'] = '0';
 $_config['db']['1']['dbname'] = 'ximeng';
@@ -85,7 +85,7 @@ $_config['security']['querysafe']['afullnote'] = '0';
 $_config['admincp']['founder'] = '1';
 $_config['admincp']['forcesecques'] = '0';
 $_config['admincp']['checkip'] = 1;
-$_config['admincp']['runquery'] = '0';
+$_config['admincp']['runquery'] = '1';
 $_config['admincp']['dbimport'] = 1;
 
 // --------------------------  CONFIG REMOTE  --------------------------- //

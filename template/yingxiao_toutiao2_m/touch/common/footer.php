@@ -13,7 +13,7 @@
 <!--{if !$nofooter}-->
 <div class="ceo_ad"><!--{$ceo_footer_ad}--></div>
 
-<div class="footer">
+<div class="footer" style="display: none;">
 	<div>
 		<!--{if !$_G[uid] && !$_G['connectguest']}-->
 		<a href="forum.php">{lang mobilehome}</a> | <a href="member.php?mod=logging&action=login" title="{lang login}">{lang login}</a> | <a href="<!--{if $_G['setting']['regstatus']}-->member.php?mod={$_G[setting][regname]}<!--{else}-->javascript:;" style="color:#D7D7D7;<!--{/if}-->" title="{$_G['setting']['reglinkname']}">{lang register}</a>

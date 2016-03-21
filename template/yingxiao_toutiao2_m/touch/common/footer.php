@@ -13,7 +13,7 @@
 <!--{if !$nofooter}-->
 <div class="ceo_ad"><!--{$ceo_footer_ad}--></div>
 
-<div class="footer" style="min-height: 300px;">
+<div class="footer">
 	<div>
 		<!--{if !$_G[uid] && !$_G['connectguest']}-->
 		<a href="forum.php">{lang mobilehome}</a> | <a href="member.php?mod=logging&action=login" title="{lang login}">{lang login}</a> | <a href="<!--{if $_G['setting']['regstatus']}-->member.php?mod={$_G[setting][regname]}<!--{else}-->javascript:;" style="color:#D7D7D7;<!--{/if}-->" title="{$_G['setting']['reglinkname']}">{lang register}</a>
@@ -21,7 +21,7 @@
 		<a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1">{$_G['member']['username']}</a> , <a href="member.php?mod=logging&action=logout&formhash={FORMHASH}" title="{lang logout}" class="dialog">{lang logout}</a>
 		<!--{/if}-->
 	</div>
-    <div>
+    <div style="display: none;">
 		<a href="{$_G['setting']['mobile']['simpletypeurl'][0]}">{lang no_simplemobiletype}</a> |  
 		<a href="javascript:;" style="color:#D7D7D7;">{lang mobile2version}</a> | 
 		<a href="{$_G['setting']['mobile']['nomobileurl']}">{lang nomobiletype}</a> | 

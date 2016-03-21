@@ -40,7 +40,8 @@
     </script>
 <style>
 
-	.deanheader{background-color: #000;}
+	body{background: url("./template/dean_lama_160310/deancss/SM-wp-background.jpg") fixed;}
+	.deanheader{display: none;}
 	#ct{min-height: 700px;}
 	.wp{width: 960px !important;}
 	.deannavwrap{background-color: #930C12 !important;}
@@ -57,6 +58,10 @@
 </head>
 
 <body id="nv_{$_G[basescript]}" class="pg_{CURMODULE}{if $_G['basescript'] === 'portal' && CURMODULE === 'list' && !empty($cat)} {$cat['bodycss']}{/if}" onkeydown="if(event.keyCode==27) return false;">
+	<header>
+		<img src="./template/dean_lama_160310/deancss/SM-top.jpg">
+		
+	</header>
 	<div id="top"></div>
 	<div id="append_parent"></div><div id="ajaxwaitid"></div>
 	<!--{if $_GET['diy'] == 'yes' && check_diy_perm($topic)}-->

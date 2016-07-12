@@ -5,8 +5,8 @@ define('UC_CONNECT', 'mysql');
 
 define('UC_DBHOST', 'localhost');
 define('UC_DBUSER', 'root');
-define('UC_DBPW', 'qzwx@ecrv');
-define('UC_DBNAME', 'ximeng');
+define('UC_DBPW', '@shisan2016shisan@');
+define('UC_DBNAME', 'sm');
 define('UC_DBCHARSET', 'utf8');
 define('UC_DBTABLEPRE', '`ximeng`.sm_ucenter_');
 define('UC_DBCONNECT', 0);

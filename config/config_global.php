@@ -6,10 +6,10 @@ $_config = array();
 // ----------------------------  CONFIG DB  ----------------------------- //
 $_config['db']['1']['dbhost'] = 'localhost';
 $_config['db']['1']['dbuser'] = 'root';
-$_config['db']['1']['dbpw'] = 'qzwx@ecrv';
+$_config['db']['1']['dbpw'] = '@shisan2016shisan@';
 $_config['db']['1']['dbcharset'] = 'utf8';
 $_config['db']['1']['pconnect'] = '0';
-$_config['db']['1']['dbname'] = 'ximeng';
+$_config['db']['1']['dbname'] = 'sm';
 $_config['db']['1']['tablepre'] = 'sm_';
 $_config['db']['slave'] = '';
 $_config['db']['common']['slave_except_table'] = '';

@@ -1,8 +1,8 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); 
 0
-|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/default/common/header_common.htm', 1458094195, '3', './data/template/3_3_common_header_connect_login.tpl.php', './template/dean_lama_160310', 'common/header_connect_login')
-|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/default/common/header_qmenu.htm', 1458094195, '3', './data/template/3_3_common_header_connect_login.tpl.php', './template/dean_lama_160310', 'common/header_connect_login')
-|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/dean_lama_160310/common/pubsearchform.htm', 1458094195, '3', './data/template/3_3_common_header_connect_login.tpl.php', './template/dean_lama_160310', 'common/header_connect_login')
+|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/default/common/header_common.htm', 1459442956, '3', './data/template/3_3_common_header_connect_login.tpl.php', './template/dean_lama_160310', 'common/header_connect_login')
+|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/default/common/header_qmenu.htm', 1459442956, '3', './data/template/3_3_common_header_connect_login.tpl.php', './template/dean_lama_160310', 'common/header_connect_login')
+|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/dean_lama_160310/common/pubsearchform.htm', 1459442956, '3', './data/template/3_3_common_header_connect_login.tpl.php', './template/dean_lama_160310', 'common/header_connect_login')
 ;?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -44,7 +44,8 @@
 <link rel="stylesheet" type="text/css" id="diy_common" href="data/cache/style_<?php echo STYLEID;?>_css_diy.css?<?php echo VERHASH;?>" />
 <?php } ?>
 
-    <script src="<?php echo $_G['style']['styleimgdir'];?>/js/jquery-1.8.3.min.js" type="text/javascript"></script> 
+<title>专业私密的SM论坛-交友-寻主-招奴-教学-调教与征服</title>
+    <script src="<?php echo $_G['style']['styleimgdir'];?>/js/jquery-1.8.3.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         var jq=jQuery.noConflict();
     </script>
@@ -54,9 +55,40 @@
         }
         window.onerror = killErrors;
     </script>
+<style>
+
+body{background: url("./template/dean_lama_160310/deancss/SM-wp-background.jpg") fixed;}
+.deanheader{display: none;}
+#ct{min-height: 700px;}
+.wp{width: 960px !important;background-color: white;}
+.deannavwrap{background-color: #930C12 !important;}
+.deannavwrap .deanw1180{width: 960px !important;}
+.deannav{width: 560px !important;}
+.deannav ul{width: 100% !important;}
+#scbar_btn{background-color: gray !important;}
+#scbar{border:none !important;}
+.deannav ul li.a a, .deannav ul li a:hover{border-top: 2px solid white;background-color: transparent;}
+.ct2_a .mn{width:800px !important;}
+.deannav ul{width: 100% !important;}
+.deanfooter{background: #710B0F !important;}
+</style>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "//hm.baidu.com/hm.js?e4680900f8d28b74cb9ae1cc25d9bb0c";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 </head>
 
 <body id="nv_<?php echo $_G['basescript'];?>" class="pg_<?php echo CURMODULE;?><?php if($_G['basescript'] === 'portal' && CURMODULE === 'list' && !empty($cat)) { ?> <?php echo $cat['bodycss'];?><?php } ?>" onkeydown="if(event.keyCode==27) return false;">
+<header>
+<img src="./template/dean_lama_160310/deancss/SM-top.jpg">
+
+</header>
 <div id="top"></div>
 <div id="append_parent"></div><div id="ajaxwaitid"></div>
 <?php if($_GET['diy'] == 'yes' && check_diy_perm($topic)) { include template('common/header_diy'); } if(check_diy_perm($topic)) { include template('common/header_diynav'); } if(CURMODULE == 'topic' && $topic && empty($topic['useheader']) && check_diy_perm($topic)) { ?>
@@ -74,7 +106,7 @@
 </div>
 <script type="text/javascript">setTimeout(setShortcut, 2000);</script>
 <?php } ?>
-        
+
         <div id="toptb" class="cl" style="display:none;">
 <?php if(!empty($_G['setting']['pluginhooks']['global_cpnav_top'])) echo $_G['setting']['pluginhooks']['global_cpnav_top'];?>
 <div class="wp" style="width:1180px!important; margin:0 auto;">
@@ -89,7 +121,7 @@
 </div>
 </div>
 </div>
-        
+
 
 
 <?php if(!IS_ROBOT) { if($_G['uid']) { ?>
@@ -129,8 +161,8 @@
 <?php if(!empty($_G['setting']['pluginhooks']['global_qmenu_bottom'])) echo $_G['setting']['pluginhooks']['global_qmenu_bottom'];?>
 </div><?php } ?><?php echo adshow("headerbanner/wp a_h");?>        <div class="deanheader" >
             <div class="deanw1180">
-                <div class="deanlogo deanduang "><?php if(!isset($_G['setting']['navlogos'][$mnid])) { ?><a href="<?php if($_G['setting']['domain']['app']['default']) { ?>http://<?php echo $_G['setting']['domain']['app']['default'];?>/<?php } else { ?>./<?php } ?>" title="<?php echo $_G['setting']['bbname'];?>"><?php echo $_G['style']['boardlogo'];?></a><?php } else { ?><?php echo $_G['setting']['navlogos'][$mnid];?><?php } ?></div>
-            	
+                <div class="deanlogo deanduang "><?php if(!isset($_G['setting']['navlogos'][$mnid])) { ?><a href="<?php if($_G['setting']['domain']['app']['default']) { ?>http://<?php echo $_G['setting']['domain']['app']['default'];?>/<?php } else { ?>./<?php } ?>" title="<?php echo $_G['setting']['bbname'];?>"><img src="./template/dean_lama_160310/deancss/logo.gif"><span style="display: none;"><?php echo $_G['style']['boardlogo'];?></span></a><?php } else { ?><?php echo $_G['setting']['navlogos'][$mnid];?><?php } ?></div>
+
                 <div class="deansearch"><?php if($_G['setting']['search']) { $slist = array();?><?php if($_G['fid'] && $_G['forum']['status'] != 3 && $mod != 'group') { ?><?php
 $slist[forumfid] = <<<EOF
 <li><a href="javascript:;" rel="curforum" fid="{$_G['fid']}" >本版</a></li>
@@ -235,7 +267,7 @@ initSearchmenu('scbar', '<?php echo $searchparams['url'];?>');
 </script>
 <?php } ?></div>
                	<div class="deanheadr">
-                	<a href="#" target="_blank"><img src="./template/dean_lama_160310/deancss/headad.jpg" /></a>
+                	<!--<a href="#" target="_blank"><img src="./template/dean_lama_160310/deancss/headad.jpg" /></a>-->
                     <div class="deanheadwx"></div>
                 </div>
                 <div class="clear"></div>

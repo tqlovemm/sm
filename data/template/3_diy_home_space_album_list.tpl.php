@@ -1,11 +1,11 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('space_album_list');
 0
-|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/home/space_header.htm', 1458094280, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
-|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/common/userabout.htm', 1458094280, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
-|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/home/space_userabout.htm', 1458094280, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
-|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/common/header_common.htm', 1458094280, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
-|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/home/space_diy.htm', 1458094280, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
-|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/home/space_header_personalnv.htm', 1458094280, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
+|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/home/space_header.htm', 1458636491, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
+|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/common/userabout.htm', 1458636491, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
+|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/home/space_userabout.htm', 1458636491, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
+|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/common/header_common.htm', 1458636491, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
+|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/home/space_diy.htm', 1458636491, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
+|| checktplrefresh('./template/default/home/space_album_list.htm', './template/default/home/space_header_personalnv.htm', 1458636491, 'diy', './data/template/3_diy_home_space_album_list.tpl.php', './template/dean_lama_160310', 'home/space_album_list')
 ;?>
 <?php $friendsname = array(1 => '仅好友可见',2 => '指定好友可见',3 => '仅自己可见',4 => '凭密码可见');?><?php if($diymode) { if($_G['setting']['homepagestyle']) { $_G[cookie][extstyle] = false;?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

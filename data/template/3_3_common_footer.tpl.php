@@ -38,7 +38,7 @@ var focusautoshow = window.setInterval('showfocus(\'next\', 1);', 5000);
 <div class="focus patch" id="patch_notice"></div>
 <?php } ?><?php echo adshow("footerbanner/wp a_f/1");?><?php echo adshow("footerbanner/wp a_f/2");?><?php echo adshow("footerbanner/wp a_f/3");?><?php echo adshow("float/a_fl/1");?><?php echo adshow("float/a_fr/2");?><?php echo adshow("couplebanner/a_fl a_cb/1");?><?php echo adshow("couplebanner/a_fr a_cb/2");?><?php echo adshow("cornerbanner/a_cn");?><?php if(!empty($_G['setting']['pluginhooks']['global_footer'])) echo $_G['setting']['pluginhooks']['global_footer'];?>
 <div class="deanfooter">
-    	<div class="deanfttop deanw1180">
+<!--    	<div class="deanfttop deanw1180">
         	<div class="deanftdiv">
             	<h3>网站服务电话</h3>
                 <div class="clear"></div>
@@ -81,15 +81,15 @@ var focusautoshow = window.setInterval('showfocus(\'next\', 1);', 5000);
             </div>
             <div class="clear"></div>
         </div>
-        <div class="clear"></div>
-        <div class="deanftbottom deanw1180">
+        <div class="clear"></div>-->
+        <div class="deanftbottom deanw1180" style="padding:0;">
         	<div class="deanftbottoml">
             	<div class="deanftnav"><?php if(is_array($_G['setting']['footernavs'])) foreach($_G['setting']['footernavs'] as $nav) { if($nav['available'] && ($nav['type'] && (!$nav['level'] || ($nav['level'] == 1 && $_G['uid']) || ($nav['level'] == 2 && $_G['adminid'] > 0) || ($nav['level'] == 3 && $_G['adminid'] == 1)) ||
 !$nav['type'] && ($nav['id'] == 'stat' && $_G['group']['allowstatdata'] || $nav['id'] == 'report' && $_G['uid'] || $nav['id'] == 'archiver' || $nav['id'] == 'mobile' || $nav['id'] == 'darkroom'))) { ?><?php echo $nav['code'];?><em>|</em><?php } } ?><div class="clear"></div></div>
                 <div class="clear"></div>
-                <p>Copyright;&nbsp;&nbsp;&copy;2015-2016&nbsp;&nbsp;<a href="<?php echo $_G['setting']['siteurl'];?>" target="_blank"><?php echo $_G['setting']['sitename'];?></a>&nbsp;&nbsp;Powered by<a href="http://www.discuz.net" target="_blank">Discuz!</a>&nbsp;&nbsp;技术支持：<a href="#" target="_blank">迪恩网络</a>&nbsp;&nbsp;<?php if($_G['setting']['statcode']) { ?><?php echo $_G['setting']['statcode'];?><?php } ?>&nbsp;&nbsp;<?php if($_G['setting']['icp']) { ?>( <a href="http://www.miitbeian.gov.cn/" target="_blank"><?php echo $_G['setting']['icp'];?></a> )<?php } ?></p>
+                <p>Copyright;&nbsp;&nbsp;&copy;2015-2016&nbsp;&nbsp;<a href="<?php echo $_G['setting']['siteurl'];?>" target="_blank"><?php echo $_G['setting']['sitename'];?></a>&nbsp;&nbsp;<?php if($_G['setting']['statcode']) { ?><?php echo $_G['setting']['statcode'];?><?php } ?>&nbsp;&nbsp;<?php if($_G['setting']['icp']) { ?>( <a href="http://www.miitbeian.gov.cn/" target="_blank"><?php echo $_G['setting']['icp'];?></a> )<?php } ?></p>
             </div>
-            <div class="deanftbottomc">
+        <!--    <div class="deanftbottomc">
             	<div class="deanwximg"><img src="./template/dean_lama_160310/deancss/qrcode_1.png" width="100" /></div>
                 <div class="deanwxinfo">
                 	<h5>迪恩官方微信</h5>
@@ -97,9 +97,9 @@ var focusautoshow = window.setInterval('showfocus(\'next\', 1);', 5000);
                     <p>海量育儿知识</p>
                 </div>
                 <div class="clear"></div>
-            </div>
+            </div>-->
             <div class="deanftbottomr">
-            	<div class="deanwximg"><img src="./template/dean_lama_160310/deancss/qrcode_2.png" width="100" /></div>
+            	<div class="deanwximg"><img src="./template/dean_lama_160310/deancss/ximengweichat.jpg" width="100" /></div>
                 <div class="deanwxinfo">
                 	<h5>官方微信</h5>
                     <div class="clear"></div>
@@ -109,8 +109,8 @@ var focusautoshow = window.setInterval('showfocus(\'next\', 1);', 5000);
             <div class="clear"></div>
         </div>
     </div>
-    
-    
+
+
     
 
 
@@ -193,5 +193,6 @@ return true;
 }
 window.onerror = killErrors;
 </script>
+<span style="display: none;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1258178229'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1258178229%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></span>
 </body>
 </html>

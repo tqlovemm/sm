@@ -1,4 +1,5 @@
-<?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('discuz');?><?php include template('common/header'); ?><div id="pt" class="bm cl">
+<?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('discuz');
+block_get('17,16');?><?php include template('common/header'); ?><div id="pt" class="bm cl">
 <?php if(empty($gid) && $announcements) { ?>
 <div class="y">
 <div id="an">
@@ -25,7 +26,7 @@
 
 <?php if(empty($gid)) { ?>
 <div class="wp">
-<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+<!--[diy=diy1]--><div id="diy1" class="area"><div id="framef3W9S3" class="cl_frame_bm frame move-span cl frame-1"><div id="framef3W9S3_left" class="column frame-1-c"><div id="framef3W9S3_left_temp" class="move-span temp"></div><?php block_display('17');?></div></div><div id="frameaQe43M" class="cl_frame_bm frame move-span cl frame-1"><div id="frameaQe43M_left" class="column frame-1-c"><div id="frameaQe43M_left_temp" class="move-span temp"></div><?php block_display('16');?></div></div></div><!--[/diy]-->
 </div>
 <?php } ?>
 

@@ -6,7 +6,7 @@ header("Content-Type: text/html; charset=UTF-8");
  *
  *      $Id: index.php 34524 2014-05-15 04:42:23Z nemohou $
  */
-
+echo "<h1>系统维护中请耐心等待</h1>";return;
 if(!empty($_SERVER['QUERY_STRING']) && is_numeric($_SERVER['QUERY_STRING'])) {
 	$_ENV['curapp'] = 'home';
 	$_GET = array('mod'=>'space', 'uid'=>$_SERVER['QUERY_STRING']);

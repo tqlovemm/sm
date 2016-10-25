@@ -1,12 +1,12 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('viewthread');
 0
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_node.htm', 1458614248, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_fastpost.htm', 1458614248, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_node_body.htm', 1458614248, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/seditor.htm', 1458614248, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/seccheck_post.htm', 1458614248, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/upload.htm', 1458614248, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
-|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/seccheck.htm', 1458614248, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_node.htm', 1468297147, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_fastpost.htm', 1468297147, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/viewthread_node_body.htm', 1468297147, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/seditor.htm', 1468297147, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/forum/seccheck_post.htm', 1468297147, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/upload.htm', 1468297147, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
+|| checktplrefresh('./template/default/forum/viewthread.htm', './template/default/common/seccheck.htm', 1468297147, 'diy', './data/template/3_diy_forum_viewthread.tpl.php', './template/dean_lama_160310', 'forum/viewthread')
 ;?><?php include template('common/header'); ?><script type="text/javascript">var fid = parseInt('<?php echo $_G['fid'];?>'), tid = parseInt('<?php echo $_G['tid'];?>');</script>
 <?php if($modmenu['thread'] || $modmenu['post']) { ?>
 <script src="<?php echo $_G['setting']['jspath'];?>forum_moderate.js?<?php echo VERHASH;?>" type="text/javascript"></script>

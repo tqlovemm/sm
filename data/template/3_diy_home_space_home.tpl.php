@@ -1,18 +1,10 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('space_home');
 0
-<<<<<<< HEAD
-|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_header.htm', 1468296885, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
-|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_userabout.htm', 1468296885, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
-|| checktplrefresh('./template/default/home/space_home.htm', './template/default/common/header_common.htm', 1468296885, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
-|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_diy.htm', 1468296885, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
-|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_header_personalnv.htm', 1468296885, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
-=======
-|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_header.htm', 1468297314, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
-|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_userabout.htm', 1468297314, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
-|| checktplrefresh('./template/default/home/space_home.htm', './template/default/common/header_common.htm', 1468297314, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
-|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_diy.htm', 1468297314, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
-|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_header_personalnv.htm', 1468297314, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
->>>>>>> 479a331cb9e03f59b77f2528c54a4c29a7ba59bd
+|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_header.htm', 1478687208, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
+|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_userabout.htm', 1478687208, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
+|| checktplrefresh('./template/default/home/space_home.htm', './template/default/common/header_common.htm', 1478687208, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
+|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_diy.htm', 1478687208, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
+|| checktplrefresh('./template/default/home/space_home.htm', './template/default/home/space_header_personalnv.htm', 1478687208, 'diy', './data/template/3_diy_home_space_home.tpl.php', './template/dean_lama_160310', 'home/space_home')
 ;?>
 <?php if(empty($diymode)) { include template('common/header'); ?><div id="pt" class="bm cl">
 <div class="z">

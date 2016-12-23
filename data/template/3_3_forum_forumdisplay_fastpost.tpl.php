@@ -1,9 +1,9 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); 
 0
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seditor.htm', 1468296903, '3', './data/template/3_3_forum_forumdisplay_fastpost.tpl.php', './template/dean_lama_160310', 'forum/forumdisplay_fastpost')
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/forum/seccheck_post.htm', 1468296903, '3', './data/template/3_3_forum_forumdisplay_fastpost.tpl.php', './template/dean_lama_160310', 'forum/forumdisplay_fastpost')
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/upload.htm', 1468296903, '3', './data/template/3_3_forum_forumdisplay_fastpost.tpl.php', './template/dean_lama_160310', 'forum/forumdisplay_fastpost')
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seccheck.htm', 1468296903, '3', './data/template/3_3_forum_forumdisplay_fastpost.tpl.php', './template/dean_lama_160310', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seditor.htm', 1478686067, '3', './data/template/3_3_forum_forumdisplay_fastpost.tpl.php', './template/dean_lama_160310', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/forum/seccheck_post.htm', 1478686067, '3', './data/template/3_3_forum_forumdisplay_fastpost.tpl.php', './template/dean_lama_160310', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/upload.htm', 1478686067, '3', './data/template/3_3_forum_forumdisplay_fastpost.tpl.php', './template/dean_lama_160310', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seccheck.htm', 1478686067, '3', './data/template/3_3_forum_forumdisplay_fastpost.tpl.php', './template/dean_lama_160310', 'forum/forumdisplay_fastpost')
 ;?>
 <script type="text/javascript">
 var postminchars = parseInt('<?php echo $_G['setting']['minpostsize'];?>');

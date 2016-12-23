@@ -1,14 +1,8 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); 
 0
-<<<<<<< HEAD
-|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/default/common/header_common.htm', 1468296905, '3', './data/template/3_3_common_header_forum_viewthread.tpl.php', './template/dean_lama_160310', 'common/header_forum_viewthread')
-|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/default/common/header_qmenu.htm', 1468296905, '3', './data/template/3_3_common_header_forum_viewthread.tpl.php', './template/dean_lama_160310', 'common/header_forum_viewthread')
-|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/dean_lama_160310/common/pubsearchform.htm', 1468296905, '3', './data/template/3_3_common_header_forum_viewthread.tpl.php', './template/dean_lama_160310', 'common/header_forum_viewthread')
-=======
-|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/default/common/header_common.htm', 1468297147, '3', './data/template/3_3_common_header_forum_viewthread.tpl.php', './template/dean_lama_160310', 'common/header_forum_viewthread')
-|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/default/common/header_qmenu.htm', 1468297147, '3', './data/template/3_3_common_header_forum_viewthread.tpl.php', './template/dean_lama_160310', 'common/header_forum_viewthread')
-|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/dean_lama_160310/common/pubsearchform.htm', 1468297147, '3', './data/template/3_3_common_header_forum_viewthread.tpl.php', './template/dean_lama_160310', 'common/header_forum_viewthread')
->>>>>>> 479a331cb9e03f59b77f2528c54a4c29a7ba59bd
+|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/default/common/header_common.htm', 1478686024, '3', './data/template/3_3_common_header_forum_viewthread.tpl.php', './template/dean_lama_160310', 'common/header_forum_viewthread')
+|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/default/common/header_qmenu.htm', 1478686024, '3', './data/template/3_3_common_header_forum_viewthread.tpl.php', './template/dean_lama_160310', 'common/header_forum_viewthread')
+|| checktplrefresh('./template/dean_lama_160310/common/header.htm', './template/dean_lama_160310/common/pubsearchform.htm', 1478686024, '3', './data/template/3_3_common_header_forum_viewthread.tpl.php', './template/dean_lama_160310', 'common/header_forum_viewthread')
 ;?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -63,7 +57,7 @@
     </script>
 <style>
 
-body{background: url("./template/dean_lama_160310/deancss/SM-wp-background.jpg") fixed;}
+body{background: url("./template/dean_lama_160310/deancss/SM-wp-background.jpg") center fixed;}
 .deanheader{display: none;}
 #ct{min-height: 700px;}
 .wp{width: 960px !important;background-color: white;}

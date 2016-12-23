@@ -38,3 +38,11 @@
 
 <?PHP exit;?>	2016-10-25 10:10:37	127.0.0.1	0	/member.php?mod=lostpasswd&lostpwsubmit=yes&infloat=yes&inajax=1	yyc.1016@163.com sendmail failed.
 
+<?PHP exit;?>	2016-10-25 18:55:13	127.0.0.1	0	/member.php?mod=lostpasswd&lostpwsubmit=yes&infloat=yes&inajax=1	wsxstc11@163.com sendmail failed.
+
+<?PHP exit;?>	2016-10-26 18:19:54	127.0.0.1	0	/member.php?mod=lostpasswd&lostpwsubmit=yes&infloat=yes&inajax=1	2770895178@qq.com sendmail failed.
+
+<?PHP exit;?>	2016-10-26 18:21:58	127.0.0.1	0	/member.php?mod=lostpasswd&lostpwsubmit=yes&infloat=yes&inajax=1	2770895178@qq.com sendmail failed.
+
+<?PHP exit;?>	2016-10-31 19:29:43	127.0.0.1	0	/member.php?mod=lostpasswd&lostpwsubmit=yes&infloat=yes&inajax=1	1121117525@qq.com sendmail failed.
+
